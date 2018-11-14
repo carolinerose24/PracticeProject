@@ -14,4 +14,34 @@ public class Shark
 		this.hasModifications = hasModifications;
 	}
 	
+	
+	
+	public String getNameOfShark()
+	{
+		return nameOfShark;
+	}
+	public int getNumberOfHeads()
+	{
+		return numberOfHeads;
+	}
+	public boolean getHasModifications()
+	{
+		return hasModifications;
+	}
+	
+	
+	public void setNameOfShark(String nameOfShark)
+	{
+		this.nameOfShark = nameOfShark; 
+	}	
+	
+	public void setNumberOfHeads(int numberOfHeads)
+	{
+		this.numberOfHeads = numberOfHeads; 
+	}	
+	
+	public void setHasModifications(boolean hasModifications)
+	{
+		this.hasModifications = hasModifications; 
+	}
 }
