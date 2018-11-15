@@ -7,6 +7,12 @@ public class Shark
 	private int numberOfHeads;
 	private boolean hasModifications;
 	
+	
+	public Shark()
+	{
+		
+	}
+	
 	public Shark(String nameOfShark, int numberOfHeads, boolean hasModifications)
 	{
 		this.nameOfShark = nameOfShark;
