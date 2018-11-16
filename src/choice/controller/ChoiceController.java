@@ -9,13 +9,14 @@ public class ChoiceController
 {
 	
 	private Shark myShark;
-	private Shark [] Sharky = new Shark [2];
+	private Shark [] Sharky = new Shark [3];
 	private ImageIcon [] icons = new ImageIcon [6];
 	
 
 	private void arrayInitialization()
 	{
-		JOptionPane.showMessageDialog(null, "\nTHE MEG IS HERE!!", "Shark Week", JOptionPane.INFORMATION_MESSAGE, icons [0]);
+		JOptionPane.showMessageDialog(null, "THE MEG IS HERE!!", "Shark Week", JOptionPane.INFORMATION_MESSAGE, icons [0]);
+		JOptionPane.showMessageDialog(null, "MegaShark v MechaShark!!", "Shark Week", JOptionPane.INFORMATION_MESSAGE, icons [1]);
 		
 		
 		for (int index = 0; index < Sharky.length; index ++)
@@ -43,12 +44,12 @@ public class ChoiceController
 		icons[1] = new ImageIcon(getClass().getResource("/choice/view/images/MMSharkImage.jpg"));
 		icons[2] = new ImageIcon(getClass().getResource("/choice/view/images/SantaJaws2.jpg"));
 		icons[3] = new ImageIcon(getClass().getResource("/choice/view/images/SantaJawsImage.jpg"));
-		icons[4] = new ImageIcon(getClass().getResource("/choice/view/images/shark11.jpg"));
+		icons[4] = new ImageIcon(getClass().getResource("/choice/view/images/shark11.png"));
 		icons[5] = new ImageIcon(getClass().getResource("/choice/view/images/Sharktopus.JPG"));
 
 		Sharky[0] = new Shark ("THE MEG", 1 , false);
 		Sharky[1] = new Shark ("SHARKTOPUS", 1 , true);
-	//	Sharky[2] = new Shark ("5 HEADED SHARK", 5 , false);
+		Sharky[2] = new Shark ("5 HEADED SHARK", 5 , false);
 
 
 	}
