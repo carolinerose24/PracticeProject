@@ -6,6 +6,8 @@ public class Shark
 	private String nameOfShark;
 	private int numberOfHeads;
 	private boolean hasModifications;
+
+
 	
 	
 	public Shark()
